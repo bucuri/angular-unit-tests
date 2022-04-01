@@ -27,6 +27,7 @@
     "@angular-devkit/build-angular": "~12.2.13",
     "@angular/cli": "~12.2.13",
     "@angular/compiler-cli": "~12.2.0",
+    "@angular/localize": "^12.2.16",
     "@briebug/jest-schematic": "^4.0.0",
     "@types/jest": "^27.4.1",
     "@types/node": "^12.11.1",

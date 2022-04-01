@@ -8,6 +8,8 @@ import { BaseComponent } from 'src/app/base.component';
 })
 export class CustomTextComponent extends BaseComponent implements OnInit {
 
+  message = $localize`Hello, World!`;
+
   constructor() {
     super();
   }
