@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-// import { BaseComponent } from 'src/app/base.component';
+import { BaseComponent } from 'src/app/base.component';
 
 @Component({
   selector: 'app-custom-text',
   templateUrl: './custom-text.component.html',
   styleUrls: ['./custom-text.component.scss']
 })
-export class CustomTextComponent implements OnInit {
+export class CustomTextComponent extends BaseComponent implements OnInit {
 
   constructor() {
-    // super();
+    super();
   }
 
   ngOnInit(): void {
-    //this.doStuff();
+    this.doStuff();
   }
 
 }
