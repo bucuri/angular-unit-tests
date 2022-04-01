@@ -1,4 +1,5 @@
 import 'jest-preset-angular/setup-jest';
+import '@angular/localize/init';
 
 /* global mocks for jsdom */
 const mock = () => {
